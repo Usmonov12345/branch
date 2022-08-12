@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0px;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+body{
+    background-color: rgb(255, 255, 255);
+}
+.container{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1px;
+}
+.header{
+    position: fixed;
+    width: 83.2%;
+    height: 67px;
+    margin-left: -px;
+    background-color:#fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: black;
+}
+.header ul{
+
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+
+    justify-content: space-around;
+}
+.header ul li a{
+    color: aliceblue;
+    margin: 20px;
+    border-bottom: 2px solid transparent;
+}
+.header ul li a:hover{
+    border-bottom: 3px solid rgb(14, 14, 189);
+
+    
+}
+.header ul li i{
+    color: aliceblue;
+}
+.header ul li a:active{
+    color:green;
+}
+.li{
+    width: 157px;
+    margin-left: 4  00px;
+    padding: 5px;
+    border: 2px solid green;
+    border-radius: 10px;
+
+    color: rgb(255, 255, 255);
+    background-color: rgb(206, 184, 177);
+}
+.li:hover{
+    background-color: antiquewhite;
+    color: black;
+    border: none;
+    border-bottom: 5px solid green; 
+}
+.hero{
+    background-image: url(hero\ image\ \(1\).png);
+    width: 100%;
+    height: 600px;
+}
+
+.hero p{
+    margin-top: 65px;
+    color: black;
+    width: 400px;
+    color: blueviolet;
+}
